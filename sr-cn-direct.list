@@ -1,0 +1,113 @@
+# 国内直连规则集（Shadowrocket RULE-SET 格式）
+# 每行 = 规则类型,内容[,参数]，不含策略列（策略由 RULE-SET 行指定）
+# 用途：RULE-SET,<此文件URL>,DIRECT
+
+# ===== 局域网/私有/本机地址直连（no-resolve：域名请求不触发解析） =====
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR6,fc00::/7,no-resolve
+
+# ===== 百度系 =====
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,baiducontent.com
+DOMAIN-SUFFIX,tieba.com
+
+# ===== 腾讯系（含微信/QQ/音乐/视频） =====
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,qzone.com
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,wegame.com.cn
+
+# ===== 阿里系 =====
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,youku.com
+
+# ===== 字节系 =====
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,snssdk.com
+
+# ===== 网易系 =====
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,youdao.com
+
+# ===== 新浪/微博 =====
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,sinajs.cn
+
+# ===== 哔哩哔哩 =====
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,b23.tv
+
+# ===== 知乎 =====
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+
+# ===== 电商/生活 =====
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,didi.com
+
+# ===== 手机厂商 =====
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,oppo.com
+DOMAIN-SUFFIX,vivo.com.cn
+
+# ===== 银行/政务/教育/运营商 =====
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,abcchina.com.cn
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,12306.cn
+
+# ===== 苹果/微软国内可直连服务 =====
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,office.com

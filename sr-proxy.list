@@ -1,0 +1,22 @@
+# 国外服务走代理规则集（Shadowrocket RULE-SET 格式）
+# 每行 = 规则类型,内容，不含策略列（策略由 RULE-SET 行指定）
+# 用途：RULE-SET,<此文件URL>,PROXY
+
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,cloudflare.com
