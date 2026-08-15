@@ -1,0 +1,2 @@
+# DMIT Reality 节点订阅（Shadowrocket 首页 Subscribe 一键导入）
+vless://549f3157-71dd-44e7-bec3-91a478629b17@179.255.122.43:443?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=anZjCcPZWlMokip-Z_4p7tvtvF4-cv2XBWelEsALKRU&sid=2331069ab0b410e8&flow=xtls-rprx-vision&type=tcp#DMIT-Reality
